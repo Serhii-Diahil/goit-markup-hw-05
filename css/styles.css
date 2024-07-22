@@ -697,6 +697,10 @@ address {
   /* padding-right: 24px; */
 }
 
+.modal-input:focus {
+  border-color: #4d5ae5;
+}
+
 .modal-input:focus + .model-icon,
 .modal-input:hover + .model-icon {
   border-color: #4d5ae5;
@@ -764,16 +768,16 @@ address {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin-right: 8px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 
 .modal-check:checked + .modal-check-text > .modal-check-span {
   border-radius: 2px;
-  background-color: #404bbf;
+  background-color: #252738;
   border: none;
   fill: #f4f4fd;
 }
