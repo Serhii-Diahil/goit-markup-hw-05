@@ -776,8 +776,7 @@ address {
 }
 
 .modal-check:checked + .modal-check-text > .modal-check-span {
-  border-radius: 2px;
-  background-color: #252738;
+  background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
 }
